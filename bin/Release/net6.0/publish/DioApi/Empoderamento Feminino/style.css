@@ -1,0 +1,158 @@
+body{
+    padding-bottom: 41px;
+    background-color: #f7f7f7;
+}
+
+
+
+
+header .menu{
+
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(24, 23, 24, 0.959);
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    
+}
+
+header nav a{
+    text-decoration: none;
+    color:rgb(243, 237, 237);
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 20px;
+    margin: 20px;
+   
+}
+
+header nav .logo h1{
+    margin:20px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header nav a:hover{
+    color: aliceblue;
+}
+
+.base{
+    display:flex;
+    flex-direction: column;
+    justify-content:left;
+
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%),url('img/grl.jpg');
+    background-size: cover;
+    background-position: 50%;
+    position: relative;
+
+    color: rgb(243, 234, 234);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+    font-weight: 500;
+    -webkit-font-smoothing:antialiased;
+    text-align: left;
+    padding-top: 20px;
+    height: 450px;
+    
+}
+
+main .subtitle{
+    
+ font-size: 20px;
+ display: contents;
+ justify-content: space-between;
+}
+
+main .titulo{
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+
+
+.rodape{
+    display: flex;
+    justify-content: center;
+    color: #f7f7f7;
+    background-color: black;
+    text-align: center;
+    padding: 60px;
+   
+
+}
+
+.texto h2{
+    text-align: center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.texto .paragrafo{
+    text-align: justify;
+    margin: 70px;
+    font-size: 20px;
+}
+
+.itens li{
+    text-align:justify;
+    margin: 50px;
+    font-size: 20px;
+}
+
+.texto .imagem-texto{
+    margin: 80px;
+    align-content: center;
+}
+
+.depoimentos .box{
+    background-color: aqua;
+    display: flex;
+    justify-items:center;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction:row;
+    text-align: center;
+    padding: 30px;
+
+    
+}
+
+.depoimentos .subbox h2{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+    text-align: center;
+    padding: 50px;
+    text-align: justify;
+    margin-top: 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+    
